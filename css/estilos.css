@@ -14,5 +14,10 @@
 
 /*Pagina de contacto*/
 #contacto{
-	background-image: url(../tb3.jpg);   
+	background-image: url(../img/opcion_fondo.jpg); 
+
 }
+#formulario{
+	background-color: white;
+}
+
