@@ -1,12 +1,16 @@
 #homepage {
-     background-image: url(../tb5.jpg);    
+     background-image: url(../img/tb5.jpg);    
 }
 #arriba
 {
   padding: 10px 10px;
 }
 
-
+#modcaur{
+	border-radius: 70px;
+	width: 1000px
+	border-radius:solid;
+}
 
 /*Pagina de contacto*/
 #contacto{
