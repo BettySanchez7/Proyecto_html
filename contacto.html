@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Pagina_WEB</title>
-        <link rel="shortcut icon" href="favicon.ico">
+        <title>Contacto</title>
+        <link rel="shortcut icon" href="img/theb.ico">
 
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -20,50 +20,83 @@
     </head>
     <body id="contacto">
 <!--FORMULARIO PARA PAGINA DE CONTACTO-->
-    <form action="">
+      
    <div class="col-md-4"></div> 
-   <div class="col-md-4">
-    <div class="form-group"> 
-        <label for="nombre" style="font-size: 40px">CONTACTANOS</label>    
-        </div>
+   <div class="container" >
+   <div class="col-md-4" style="background-color:rgba(133, 193, 233 ,.8);border-radius: 15px;  padding: 1px;">
+    <form class="form_reg" action="">
         <div class="form-group"> 
-        <label for="nombre" style="font-size: 20px;">INFORMACIÓN GENERAL:</label> 
+        <br>
+
+        <label for="nombre" style="font-size: 40px; color:#F4D03F;text-align:center; ">CONTACTANOS ____</label> 
+        <label for="nombre" style="font-size: 40px; color:#F4D03F;text-align:center; ">INFORMACIÓN GENERAL:</label> 
         <br>  
-        <label for="nombre" style="font-size: 20px;">(55)21499035</label>
-        <label for="nombre" style="font-size: 20px;">Calle Francisco I. Madero 10, Tlalpan Centro I, 14000 Tlalpan, CDMX</label> 
+        <label for="nombre" style="font-size: 20px; color:#F4D03F;text-align:center; ">Télefono/Celular: (55)133254/52552149356</label>
+        <label for="nombre" style="font-size: 20px; color:#F4D03F;text-align:center; ">Calle Francisco I. Madero 10, Tlalpan Centro I, 14000 Tlalpan, CDMX</label> 
       </div>
 
     <div class="form-group">
         <div class="row">
         <div class="col-md-5">
-        <input type="text" class="form-control" style="WIDTH: 167px; HEIGHT: 40px" placeholder="Nombre"> 
+        <input type="text" class="input" style="WIDTH: 150px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" placeholder="   &#128100; Nombre"> 
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-6">
-        <input type="text" class="form-control" style="WIDTH: 167px; HEIGHT: 40px" placeholder="Apellidos"> 
+        <!--Agregando desactivado en Apellido-->
+        <input type="text" class="form-control" disabled="No se puede escribir en este campo" style="WIDTH: 150px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" placeholder="&#128100;  Apellidos"> 
         </div>
         </div>
     </div>
     
 
     <div class="form-group"> 
-        <input type="text" class="form-control" style="WIDTH: 360px; HEIGHT: 40px" placeholder="Número de móvil o correo electronico">  
+        <input type="text" class="form-control" style="WIDTH: 370px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" placeholder="&#9742;Número de móvil"> 
+        <br> 
+        <input type="text" class="form-control" style="WIDTH: 370px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" placeholder=" &#128231;;correo electronico">  
     </div>
 
     <div class="form-group"> 
-        <label for="">¿Desde qué país visitas nuestro sitio?</label> 
-        <br>
-        combo
+        <label for="" style="color: green;">  &#127757; ¿Desde qué país visitas nuestro sitio?</label>  
     </div>
+    <div class="form-group">
+        <div class="row">
+        <div class="col-md-5">
+        <!--Agregando combo-box-->
+        <select class="form-control" name="" id="" style="WIDTH: 150px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" >
+        <option value= "">México</option>
+        <option value="">Alemania</option>
+        <option value="">Brasil</option>
+        <option value= "">Peru</option>
+        <option value="">Colombia</option>
+        <option value="">Argentina</option>
+        <option value= "">Cánada</option>
+        <option value="">Bolivia</option>
+        <option value="">Belice</option>
+        <option value= "">India</option>
+        <option value="">Honduras</option>
+        <option value="">Japón</option>
+        </select><br>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+            <input type="text" class="form-control" style="WIDTH: 150px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" placeholder="¿OTRO?">
+        </div>
+
+        
+    </div>
+
     <div class="form-group"> 
-        <textarea name="" id="" cols="30" rows="10" placeholder="Escribenos un mensaje"></textarea>  
+        <textarea name="" id="" cols="50" rows="5" placeholder="Escribenos un mensaje" style="border-radius: 10px; background-color:rgba(244, 208, 63, .5);"></textarea>  
     </div>
 
     <button type="button" class="btn btn-primary">Enviar</button>
     
     </div>
       
-      </form>
+    </form>
+    </div>
+    </div>
+       
 
     </div> <!-- /container -->        <script src="js/vendor/jquery-1.11.2.min.js"></script>
        
