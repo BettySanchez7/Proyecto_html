@@ -43,10 +43,14 @@
 
             </div>
             <!--Inicia opciones de menu-->
+
+            <!--En href ingreso todas las direcciones de nuestras paginas para poder dirigirnos entre ellos-->
             <div class="collapse navbar-collapse" id="menu">
               <ul class="nav navbar-nav navbar-right">
                 <li><a  class="la" href="index.html">INICIO</a></li> 
+                <!--Le doy formato al boton de multimedia para indicar que estoy sobre esa pagina-->
                <li style="color:black;" class="active" class="dropdown">
+
                   <a  style="border-radius: 50px;" class="la" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">MULTIMEDIA<span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu" role="menu">
@@ -73,7 +77,7 @@
         </header>
 
 
-
+        <!--Agenado jumbotron-->
          <section style="background-color: #D98880" class="jumbotron">
         <div style="background-color: #FADBD8;" class="container">
           <h2 style="text-align: center; ">     &#9835; &#9835;Bienvenido a la sección de fotos y videos!   &#9835; &#9835;</h2>
@@ -95,7 +99,9 @@
     
     <br><br>
 
-    <!--Vídeos-->
+    <!--Agregando Vídeos a un carrusel-->
+
+
 
 <div class="container">+
     <div class="col-md-7">
@@ -111,13 +117,15 @@
     <div class="carousel-inner" style="width: 100%; height: 100%;"">
 
       <div class="item active">
+        <!--El primer vídeo del carrusel se reproduce entrando a la pagina con la propiedad &autopleay=1-->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/3T7iFfkX_nA?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <!--Con la clase carousel-caption se pode un texto de descripcion en nuestros vídeos-->
         <div class="carousel-caption" >
           <h3>Do you want to know a secret? </h3>
           <p>es una canción de la banda británica The Beatles compuesta principalmente por John Lennon, y atribuida a McCartney</p>
         </div>
       </div>
-
+        <!--Insertando segundo vídeo al carrusel, este no se reproduce solo, sino se juntarian los dos audios-->
       <div class="item"><iframe width="560" height="315" src="https://www.youtube.com/embed/GoTQ5W9z_NY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <div class="carousel-caption">
           <h3>I should have know better</h3>
@@ -127,7 +135,7 @@
   
     </div>
 
-    <!-- Left and right controls -->
+    <!--Controles de derecha e izquierda -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
@@ -138,7 +146,10 @@
     </a>
   </div>
   </div>
+
+  <!--Agregando texto descriptivo a lado de mis vídeos-->
   <div style="background-color: #F6DDCC ;" class="container">
+  <!--Agregando algunas caracteristicas a mi texto-->
   <p align="justify" FACE="courier new"> &#128100;&#128100;&#128100;&#128100;Con una formación inicial de cinco componentes que incluía a Lennon, McCartney, Harrison, Stuart Sutcliffe (bajo) y Pete Best (batería), la banda construyó su reputación en los clubes de Liverpool y Hamburgo sobre un período de tres años a partir de 1960. Sutcliffe abandonó la formación en 1961, y Best fue reemplazado por Starr al año siguiente. Establecidos como grupo profesional después de que Brian Epstein les ofreciera ser su representante, y con su potencial musical mejorado por la creatividad del productor George Martin, lograron éxito comercial en el Reino Unido a finales de 1962 con su primer sencillo, «Love Me Do». A partir de ahí, fueron adquiriendo popularidad internacional a lo largo de los siguientes años, en los cuales hicieron un extenso número de giras hasta 1966, año en que cesaron la actividad en vivo para dedicarse únicamente a la grabación en el estudio hasta su disolución en 1970. Después, todos sus integrantes se embarcaron en exitosas carreras independientes de diversa duración. Lennon sería asesinado a las afueras de su casa de Nueva York en 1980, y Harrison fallecería de cáncer en 2001. McCartney y Starr, los dos miembros sobrevivientes, aún permanecen musicalmente activos.
   El icónico logotipo de The Beatles con la letra «T» alargada hacia abajo hizo su debut en 1963, cuando fue utilizado por primera vez al frente de la batería</p></div>
   <div class="col-md-5">
@@ -147,7 +158,9 @@
   </div>
 
 <br>
-<hr>    
+
+<hr>  
+<!--Comenzando sección de fotos hr nos separa con una línea-->  
 <div class="container">
     <h1 style="text-align: center;">¡Sección de fotos!</h1>
 </div>
@@ -166,7 +179,7 @@
     <li data-target="#Carousel" data-slide-to="2"></li>
   </ol>
 
-  <!-- Wrapper for slides -->
+  <!--En esta parte agrego mis imagenes y le do formato a mi carousel-->
   <div class="carousel-inner" style="background-color: #F0B27A; border-radius: 60px;" style="width: 100%; height: 100%;">
     <div class="item active">
       <img src="img/4.jpg" alt="">
@@ -181,7 +194,7 @@
     </div>
   </div>
 
-  <!-- Left and right controls -->
+  <!-- Controles de izquierda y derecha -->
   <a class="left carousel-control" href="#Carousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
     <span class="sr-only">Antes</span>
@@ -196,6 +209,8 @@
 </section>
 
  <br><br>
+
+ <!--Agregando footer-->
 
 <div style="background-color: #EC7063;" id="footer">
     

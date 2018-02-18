@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>The_beatles</title>
+        <!--Inserte icono-->
         <link rel="shortcut icon" href="icono.ico">
 
         <meta name="description" content="">
@@ -15,6 +16,8 @@
         
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <!--Llame a mi hoja de estilos para utilizar css-->
         <link rel="stylesheet" href="css/estilos.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -79,8 +82,8 @@
                                           <!--AGREGANDO CAROUSEL-->
         <section class= "main container">
         <div class="row">
-        <section class="col-md-9 posts">
-        <div id="carouseln" class="container">
+        <section class="col-md-9  posts">
+        <div id="carouseln" style="width: 100%" class="container">
         <div id="carouselhome" class="carousel slide" data-ride="carousel">
         <!--Indicadores-->
           <ol class="carousel-indicators">
@@ -94,9 +97,11 @@
          
           <div id="modcaur" style= "background-color: white" class="carousel-inner">
             <div  class="item active">
+            <!--Dividiendo con grid para poner texto alado de la imagen-->
               <div class="col-md-8">
               <a href="Noticias.html"><img src="img/carousel1.jpg" alt=" " style="width:100%;"></a>
               </div>
+              <!--Agregando texto-->
               <div class="col-md-4">
                 <h1>Ringo anuncia el nuevo álbum "Give More Love"</h1>
                 <p>El 25 de febrero marca lo que hubiera sido el cumpleaños número 75 de George. En amor y recuerdo se reeditará el 23 de febrero como un paquete de caja Deluxe Edition, un juego de cajas de 4 LP, más nuevos paquetes combinados de CD / DVD y CD / Blu-ray.
@@ -148,38 +153,18 @@
           </div>
         </div>
 
-        <section>
-
-        <br><br>
-        <div class="col-md-12" style="background-color: #4FA2A0  ; border-radius: 15px;"><br>
-
-
-          <p>Grupo británico de música rock y pop, el más admirado y popular de la década de 1960 y uno de los más influyentes en la historia de la música moderna. Si el gran Elvis Presley dominó los años 50 como rey del rock and roll, correspondió a The Beatles, un grupo también rockero en sus raíces, ejercer la hegemonía en la década siguiente con una acertadísima y sofisticada amalgama de estilos que llevaría la música pop a todos los públicos y preludió géneros posteriores.</p>
-        </div>
-        </section>
-  
-        <br><br><br><br><br><br><br><br>
-        <section >
-          <div class="container">
-          <p style="color: white;"">¿NOS AYUDARIAS A MEJORAR NUESTRA PAGINA? (COMPARTE FOTOS DE THE BEATLES CON NOSOTROS)</p>
-          <form enctype="multipart/form-data" action="uploader.php" method="POST">
-            <input name="uploadedfile" type="file" />
-            <input type="submit" value="Subir archivo" />
-          </form>
-          </div>
-        </section>
+      </section>
 
         
-        </section>
         <!--FIN DEN CAROUSEL-->
 
 
 
 
-
-
         
-         <aside class="col-md-3 hidden-xs hiddem-sm">
+
+        <!--Insertando barra lateral con algunos anuncios, frases, etc-->
+         <aside class="col-md-3 col-xs-12">
           <a href="#" class="list-group-item" style="background-color: #AED6F1  ;">
                 <h5 class="list-group-item-heading" style="color:orange;">Articulos de the beatles</h5>
                 <p class="list-group-item-text">En las siguientes tiendas online puedes conseguir articulos relacionados con ellos y mucho más.</p>
@@ -192,6 +177,41 @@
                 <img src="img/beatlemania.jpg" alt="">
           </a>
         </aside>
+        </div>
+
+        
+        <div class="row">
+         <section>
+
+        <br><br>
+        <!--Insertando un parrafo debejo de nuestro caruusel-->
+        <div class="col-md-9" style="background-color: #4FA2A0  ; border-radius: 15px;"><br>
+
+
+          <p>Grupo británico de música rock y pop, el más admirado y popular de la década de 1960 y uno de los más influyentes en la historia de la música moderna. Si el gran Elvis Presley dominó los años 50 como rey del rock and roll, correspondió a The Beatles, un grupo también rockero en sus raíces, ejercer la hegemonía en la década siguiente con una acertadísima y sofisticada amalgama de estilos que llevaría la música pop a todos los públicos y preludió géneros posteriores.</p>
+        </div>
+        </section>
+        </div>
+
+
+        <div class="row">
+        <div class="col-md-9">
+        <!--Intento para subir fotos al servidor, pero se hacia uso de php o js-->
+        <section >
+          <div class="container">
+          <p style="color: white;"">¿NOS AYUDARIAS A MEJORAR NUESTRA PAGINA? (COMPARTE FOTOS DE THE BEATLES CON NOSOTROS)</p>
+          <form enctype="multipart/form-data" action="uploader.php" method="POST">
+            <input name="uploadedfile" type="file" />
+            <input type="submit" value="Subir archivo" />
+          </form>
+          </div>
+        </section>
+        </div>
+        </div>
+        
+
+        
+        </section>
 
         
 
@@ -200,7 +220,11 @@
         
       </section> 
 
+        <!--Agregando musica de fondo-->
 
+        <EMBED SRC="music.mp3" AUTOSTART="true"  style="width: 1px; height: 1px;" >
+
+        <!--Agregando footer en la parte de abajo de nuestra pagina web-->
         <br><br>
 
         <div style="background-color: #2F6C76;" id="footer">
