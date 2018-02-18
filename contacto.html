@@ -19,13 +19,69 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body id="contacto">
+ <header>
+        <!--Insertando barra de navegación-->
+        <nav id="arriba" class=" navbar-inverse navbar-static-top" role="navigation">
+
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                <span class="sr-only">
+                  Ocultar menu
+                </span>
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+                </button>
+
+                  <a href="#" class="navbar-brand" style="">
+                    THE BEATLES 
+                  </a>
+
+            </div>
+            <!--Inicia opciones de menu-->
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a  class="la" href="#">INICIO</a></li> 
+               <li class="dropdown">
+                  <a  class="la" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">MULTIMEDIA<span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li ><a class="la" href="#">Fotos</a></li>
+                    <li ><a href="#">Vídeos</a></li>
+                  </ul>
+                </li>
+                <li ><a class="la" href="#">HISTORIA</a></li>
+                <li ><a class="la" href="#">NOTICIAS</a></li>
+                <li  style="color:black;" class="active"><a style="border-radius: 50px;" class="la" href="file:///C:\Users\betys\Desktop\Proyecto_html\contacto.html">CONTACTO</a></li>
+                <li>
+              <form class="form-inline my-2 my-lg-0">
+              <div class="form-group">
+              <!--Botón de busqueda-->
+              <input class="form-control mr-sm-2" type="text" placeholder="¿Qué quieres buscar?">
+              <button type="button" class="btn btn-prymari"><span class="glyphicon glyphicon-search"></span></button></div>
+            </form></li>
+              </ul>
+            </div>
+            
+
+          </div>
+        </nav>
+        </header>
+
 <!--FORMULARIO PARA PAGINA DE CONTACTO-->
-      
-   <div class="col-md-4"></div> 
+      <br>
    <div class="container" >
+   <div class="row">
+    <div class="col-md-8">
+    <br><br><br><br>
+        <img style="width: 100%" src="img/fondo3.jpg" alt="">
+    </div> 
    <div class="col-md-4" style="background-color:rgba(133, 193, 233 ,.8);border-radius: 15px;  padding: 1px;">
     <form class="form_reg" action="">
-        <div class="form-group"> 
+        <div   style="width:100%;" class="form-group"> 
         <br>
 
         <label for="nombre" style="font-size: 40px; color:#F4D03F;text-align:center; ">CONTACTANOS ____</label> 
@@ -35,7 +91,8 @@
         <label for="nombre" style="font-size: 20px; color:#F4D03F;text-align:center; ">Calle Francisco I. Madero 10, Tlalpan Centro I, 14000 Tlalpan, CDMX</label> 
       </div>
 
-    <div class="form-group">
+    <div style="width:100%;" class="form-group">
+
         <div class="row">
         <div class="col-md-5">
         <input type="text" class="input" style="WIDTH: 150px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" placeholder="   &#128100; Nombre"> 
@@ -49,16 +106,18 @@
     </div>
     
 
-    <div class="form-group"> 
+
+    <div    style="width:100%;" class="form-group"> 
         <input type="text" class="form-control" style="WIDTH: 370px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" placeholder="&#9742;Número de móvil"> 
         <br> 
         <input type="text" class="form-control" style="WIDTH: 370px; HEIGHT: 40px; background-color:rgba(244, 208, 63, .5);" placeholder=" &#128231;;correo electronico">  
     </div>
 
-    <div class="form-group"> 
+    <div    style="width:100%;" class="form-group"> 
         <label for="" style="color: green;">  &#127757; ¿Desde qué país visitas nuestro sitio?</label>  
     </div>
-    <div class="form-group">
+    <div   style="width:100%;" class="form-group">
+
         <div class="row">
         <div class="col-md-5">
         <!--Agregando combo-box-->
@@ -85,16 +144,30 @@
         
     </div>
 
-    <div class="form-group"> 
-        <textarea name="" id="" cols="50" rows="5" placeholder="Escribenos un mensaje" style="border-radius: 10px; background-color:rgba(244, 208, 63, .5);"></textarea>  
+    <div  style="width:100%;" class="form-group"> 
+        <textarea name="" id="" cols="50" rows="5" placeholder="Escribenos un mensaje" style="WIDTH: 360px; HEIGHT: 50px;border-radius: 10px; background-color:rgba(244, 208, 63, .5);"></textarea>  
+    </div>
+    <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+    <button type="button" style="position: top;" class="btn btn-primary">Enviar</button>
+    </div>
+    <div class="col-md-4"></div>
     </div>
 
-    <button type="button" class="btn btn-primary">Enviar</button>
-    
     </div>
-      
     </form>
     </div>
+    </div>
+      
+    
+    </div>
+    <br><br>
+
+    <div style="background-color: #2F6C76;" id="footer">
+    
+      <p class="copy">©copyright the beatles.com</p>
+       
     </div>
        
 
